@@ -1,0 +1,17 @@
+$TTL 86400
+@   IN  SOA     ns.lx-y.ephec-ti.be. admin.lx-y.ephec-ti.be. (
+        2024032401  ; Serial
+        3600        ; Refresh
+        1800        ; Retry
+        604800      ; Expire
+        86400 )     ; Minimum TTL
+
+@   IN  NS  ns.lx-y.ephec-ti.be.
+ns.lx-y IN  A   172.17.0.2
+
+; Définition des enregistrements pour les hôtes WoodyToys
+@       IN  A   [adresse IP de votre serveur web principal]  ; Enregistrement pour le domaine apex
+www     IN  A   [adresse IP de votre serveur web]          ; Enregistrement pour le sous-domaine www
+mail    IN  A   [adresse IP de votre serveur mail]         ; Enregistrement pour le sous-domaine mail
+
+
