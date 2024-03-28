@@ -2,5 +2,4 @@
 
 2.2. Validation de la clé publique via la zone parente
 
-
-; le resultat attendue:"ex" .
+;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa le resultat attendue:"ex" .
